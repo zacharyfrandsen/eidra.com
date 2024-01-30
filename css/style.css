@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwiPHA.ttf) format('truetype');
+  }
+  body {
+    background: rgba(40, 45, 51, 0.900);
+  }
+  section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 72px;
+    line-height: 2;
+    font-family: 'Lato', "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", sans-serif;
+    font-weight: bold;
+  }
+  p {
+    font-size: 24px;
+    line-height: 2;
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+  .wrap {
+    height: 100%;
+  }
+  .button {
+    width: 140px;
+    height: 45px;
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  .button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  section:nth-child(1) {
+    background: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(/images/eidra.gif);
+    background-size: cover, cover;
+    background-position: center center, center center;
+    background-repeat: no-repeat;
+  }
+  section:nth-child(2) {
+    background: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(./images/zacharyfrandsen.gif);
+    background-size: cover, cover;
+    background-position: center center, center;
+    background-repeat: no-repeat;
+  }
+  section:nth-child(3) {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url(http://assets02.dappei.com/uploads/photo/image/8766/336fbca014308de6.jpg);
+    background-size: cover, cover;
+    background-position: center center, center -200px;
+  }
+  section:nth-child(4) {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url(http://assets02.dappei.com/uploads/photo/image/8780/b3f3ad03e7b9b94d.jpg);
+    background-size: cover, cover;
+    background-position: center center, center center;
+  }
+  section:nth-child(5) {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url(http://assets02.dappei.com/uploads/photo/image/8790/03eb8cb7f8ba5609.jpg);
+    background-size: cover, cover;
+    background-position: center center, center -100px;
+  }
+  section:nth-child(6) {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url(http://assets02.dappei.com/uploads/photo/image/8823/772c0fc9a2046c5a.jpg);
+    background-size: cover, cover;
+    background-position: center center, center -100px;
+  }
+  section:nth-child(7) {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url(http://assets02.dappei.com/uploads/photo/image/8833/6fb780e9098f3762.jpg);
+    background-size: cover, cover;
+    background-position: center center, center -300px;
+  }
+  section:nth-child(8) {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url(http://assets02.dappei.com/uploads/photo/image/8840/6596e37e2ad9ed12.jpg);
+    background-size: cover, cover;
+    background-position: center center, center -400px;
+  }
+  section:nth-child(9) {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url(http://assets02.dappei.com/uploads/photo/image/9002/e18cd0afb7aaed5c.jpg);
+    background-size: cover, cover;
+    background-position: center center, center center;
+  }
+  section:nth-child(10) {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url(http://assets02.dappei.com/uploads/photo/image/9019/63ff0dc4c65bfb4c.jpg);
+    background-size: cover, cover;
+    background-position: center center, center -200px;
+  }
+  section:nth-child(11) {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url(http://assets02.dappei.com/uploads/photo/image/9107/84ff5cea3cce7ac3.jpg);
+    background-size: cover, cover;
+  }
+  section:nth-child(12) {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url(http://assets02.dappei.com/uploads/photo/image/9460/a386774f33cb2f1c.jpg);
+    background-size: cover, cover;
+    background-position: center center, center center;
+  }
+  section:nth-child(13) {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url(http://assets02.dappei.com/uploads/photo/image/9478/c2443a4b8df09605.jpg);
+    background-size: cover, cover;
+    background-position: center center, center center;
+  }
+  section:nth-child(14) {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url(http://assets02.dappei.com/uploads/photo/image/9496/38b970736535ca96.jpg);
+    background-size: cover, cover;
+    background-position: center center, center -200px;
+  }
